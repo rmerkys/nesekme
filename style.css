@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  max-width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+nav .links {
+  display: flex;
+  height: 100px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+nav .links a {
+  text-decoration: none;
+  align-self: flex-end;
+  color: grey;
+}
+nav .links a:hover {
+  color: black;
+}
+nav .links #hamburger {
+  display: none;
+}
+nav h1 {
+  height: 120px;
+  font-size: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+nav .icons {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  gap: 15px;
+}
+nav .icons i {
+  align-self: flex-end;
+  padding-bottom: 30px;
+}
+
+#registercontainer {
+  max-width: 800px;
+  height: 250px;
+  margin: 50px auto;
+  position: relative;
+  gap: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  display: none;
+}
+#registercontainer #register {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#registercontainer #register .register-form-field {
+  display: flex;
+  gap: 10px;
+}
+#registercontainer #register .register-form-field label {
+  width: 100px;
+  color: grey;
+  text-transform: uppercase;
+  text-align: right;
+}
+#registercontainer #register .register-form-field input {
+  width: 600px;
+  height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+#registercontainer #register .register-form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+#registercontainer #register .register-form-buttons button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+}
+#registercontainer #register .register-form-buttons button:last-child {
+  margin-left: 20px;
+}
+
+.form-container {
+  max-width: 800px;
+  height: 30px;
+  margin: 20px auto;
+}
+.form-container #login {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container #login label {
+  color: grey;
+  text-transform: uppercase;
+}
+.form-container #login button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+.form-container #login input {
+  height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+.form-container #registerform {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+.create {
+  max-width: 800px;
+  height: 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  display: none;
+}
+.create button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+.create-post-form {
+  max-width: 800px;
+  height: 250px;
+  margin: 50px auto;
+  position: relative;
+  gap: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  display: none;
+}
+.create-post-form #create-post {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.create-post-form .form-field {
+  display: flex;
+  gap: 10px;
+}
+.create-post-form .form-field label {
+  width: 100px;
+  color: grey;
+  text-transform: uppercase;
+  text-align: right;
+}
+.create-post-form .form-field input {
+  width: 600px;
+  height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+.create-post-form .post-form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.create-post-form .post-form-buttons button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+}
+.create-post-form .post-form-buttons button:last-child {
+  margin-left: 20px;
+}
+
+main {
+  max-width: 800px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 50px auto;
+}
+main .mainpost {
+  width: 800px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 20px auto;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  padding-left: 50px;
+}
+main .mainpost .change-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 50px;
+}
+main .mainpost .change-buttons button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+main .mainpost .posttitle {
+  margin: 40px 0;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+main .mainpost img {
+  width: 700px;
+  height: 1150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .mainpost .posttext {
+  margin: 30px auto;
+  font-size: 16px;
+  text-align: justify;
+  margin-right: 50px;
+}
+main .mainpost .social {
+  padding-right: 50px;
+}
+main .mainpost .social hr {
+  margin: 20px auto;
+  height: 1px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+main .mainpost .social .social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+main .mainpost .social .socialcounts {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+main .mainpost .social .socialcounts span {
+  margin-right: 5px;
+}
+main .mainpost .social .socialcounts .hearts {
+  margin-left: auto;
+}
+
+footer {
+  max-width: 800px;
+  height: 300px;
+  margin: 20px auto;
+}
+footer .email-form {
+  max-width: 800px;
+  height: 200px;
+  background-color: rgb(185, 174, 128);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .email-form h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  align-self: flex-start;
+  margin-left: 50px;
+}
+footer .email-form .email-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .email-form .email-input #email-form {
+  display: block;
+  width: 700px;
+  height: 40px;
+  padding-left: 20px;
+}
+footer .email-form .email-input #email-form::-moz-placeholder {
+  color: rgb(185, 174, 128);
+}
+footer .email-form .email-input #email-form::placeholder {
+  color: rgb(185, 174, 128);
+}
+footer .email-form .email-input #email-form:hover {
+  border: 4px solid black;
+}
+footer .email-form .email-input #email-submit {
+  display: block;
+  width: 700px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+footer .email-form .email-input #email-submit:hover {
+  background-color: rgb(128, 128, 128);
+}
+footer .footer-black {
+  max-width: 800px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer-black p {
+  font-size: 10px;
+  color: rgb(185, 174, 128);
+}
+footer .footer-black .footer-icons {
+  display: flex;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  max-width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  max-width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+nav .links {
+  display: flex;
+  height: 100px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+nav .links a {
+  text-decoration: none;
+  align-self: flex-end;
+  color: grey;
+}
+nav .links a:hover {
+  color: black;
+}
+nav .links #hamburger {
+  display: none;
+}
+nav h1 {
+  height: 120px;
+  font-size: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+nav .icons {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  gap: 15px;
+}
+nav .icons i {
+  align-self: flex-end;
+  padding-bottom: 30px;
+}
+
+.form-container {
+  max-width: 800px;
+  height: 30px;
+  margin: 20px auto;
+}
+.form-container #login {
+  display: flex;
+  justify-content: space-around;
+}
+.form-container #login label {
+  color: grey;
+  text-transform: uppercase;
+}
+.form-container #login button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+.form-container #login input {
+  height: 30px;
+}
+
+main {
+  max-width: 800px;
+  height: 500px;
+  margin: 100px auto 100px;
+  display: flex;
+  gap: 30px;
+}
+main img {
+  width: 500px;
+  height: 500px;
+}
+main .textblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+main .textblock h4 {
+  font-size: 50px;
+}
+main .textblock p {
+  font-size: 14px;
+}
+main .textblock .contactinfo :first-child {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+main .textblock .contactinfo :last-child {
+  font-size: 12px;
+}
+
+footer {
+  max-width: 800px;
+  height: 300px;
+  margin: 0 auto;
+}
+footer .email-form {
+  max-width: 800px;
+  height: 200px;
+  background-color: rgb(185, 174, 128);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .email-form h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  align-self: flex-start;
+  margin-left: 50px;
+}
+footer .email-form .email-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .email-form .email-input #email-form {
+  display: block;
+  width: 700px;
+  height: 40px;
+  padding-left: 20px;
+}
+footer .email-form .email-input #email-form ::-moz-placeholder {
+  color: rgb(185, 174, 128);
+}
+footer .email-form .email-input #email-form ::placeholder {
+  color: rgb(185, 174, 128);
+}
+footer .email-form .email-input #email-submit {
+  display: block;
+  width: 700px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+footer .footer-black {
+  max-width: 800px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer-black p {
+  font-size: 10px;
+  color: rgb(185, 174, 128);
+}
+footer .footer-black .footer-icons {
+  display: flex;
+  gap: 15px;
+}/*# sourceMappingURL=about.css.map */

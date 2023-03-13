@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Annabelle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="links">
+        <a href="./index.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <i id="hamburger" class="fa-solid fa-bars"></i>
+      </div>
+      <h1>Annabelle</h1>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f fa-lg"></i>
+        <i class="fa-brands fa-twitter fa-lg"></i>
+        <i class="fa-brands fa-instagram fa-lg"></i>
+      </div>
+    </nav>
+    <div class="form-container">
+      <form id="login">
+        <div class="form-field">
+          <label for="username">Username:</label>
+          <input type="email" name="username" id="username" />
+        </div>
+        <div class="form-field">
+          <label for="password">Password:</label>
+          <input name="password" type="password" id="password" />
+        </div>
+        <button id="loginsubmit" type="submit">login</button>
+        <button id="registerform">Register Form</button>
+      </form>
+    </div>
+
+    <div id="registercontainer">
+      <form id="register">
+        <div class="register-form-field">
+          <label for="register-username">Username:</label>
+          <input type="text" name="register-username" id="register-username" />
+        </div>
+        <div class="register-form-field">
+          <label for="register-password">Password:</label>
+          <input
+            name="register-password"
+            type="password"
+            id="register-password"
+          />
+        </div>
+        <div class="register-form-field">
+          <label for="repeat-password">Repeat Password</label>
+          <input name="repeat-password" type="password" id="repeat-password" />
+        </div>
+        <div class="register-form-buttons">
+          <button id="register-user" type="submit">Register</button>
+          <!-- <button>Close</button> -->
+        </div>
+      </form>
+    </div>
+    <div class="create">
+      <button id="createpost">Create Post</button>
+      <button id="logout">Logout</button>
+    </div>
+    <div class="create-post-form">
+      <form id="create-post">
+        <div class="form-field">
+          <label for="title">Post title:</label>
+          <input type="text" name="title" id="title" />
+        </div>
+        <div class="form-field">
+          <label for="content">Content:</label>
+          <input name="content" type="text" id="content" />
+        </div>
+        <div class="form-field">
+          <label for="img">Image:</label>
+          <input name="img" type="text" id="img" />
+        </div>
+        <div class="post-form-buttons">
+          <button id="addpost" type="submit">Post</button>
+          <!-- <button>Close</button> -->
+        </div>
+      </form>
+    </div>
+    <main id="posts" class="posts">
+      <!-- <div class="mainpost">
+        <p class="posttitle">My Style Tuesday</p>
+        <img src="./1pav.webp" alt="1pav" />
+        <p class="posttext">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+          nesciunt id quod sequi, laboriosam mollitia nostrum dolore dolorum
+          fugiat itaque.
+        </p>
+        <div class="social">
+          <hr />
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook-f fa-sm"></i>
+            <i class="fa-brands fa-twitter fa-sm"></i>
+            <i class="fa-brands fa-linkedin-in fa-sm"></i>
+            <i class="fa-solid fa-link fa-sm"></i>
+          </div>
+          <hr />
+          <div class="socialcounts">
+            <p class="views"><span class="viewcount">0</span>views</p>
+            <p class="comments"><span class="commentcount">0</span>comments</p>
+            <p class="hearts">
+              <span class="heartscount">0</span
+              ><i class="fa-regular fa-heart"></i>
+            </p>
+            
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="additionalposts"></div> -->
+    </main>
+    <footer>
+      <div class="email-form">
+        <h2>Lets take it to the next level</h2>
+        <div class="email-input">
+          <input
+            type="email"
+            placeholder="Enter your email here*"
+            id="email-form"
+          />
+          <button id="email-submit">Subscribe Now</button>
+        </div>
+      </div>
+      <div class="footer-black">
+        <div class="footer-icons">
+          <i class="fa-brands fa-facebook-f fa-xl"></i>
+          <i class="fa-brands fa-twitter fa-xl"></i>
+          <i class="fa-brands fa-instagram fa-xl"></i>
+        </div>
+        <p>© 2035 by Annabelle. Wix</p>
+      </div>
+    </footer>
+  </body>
+</html>
